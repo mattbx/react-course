@@ -1,0 +1,58 @@
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  line-height: 1.1;
+}
+
+a {
+  color: #007ACE;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url(../img/wallpaper3.jpg);
+  background-size: cover;
+  max-height: 920px;
+  padding: 220px 0;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+
+.heroGroup {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  color: white;
+  margin: 0;
+}
+
+.hero a {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: white;
+  background: rgb(230, 44, 129);
+  font-weight: 600;
+  padding: 16px 34px;
+  border-radius: 30px;
+} 
+
+.hero p {
+  font-size: 30px;
+  color: rgba(255,255,255, 0.8);
+}
